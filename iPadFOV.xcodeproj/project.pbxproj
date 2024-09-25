@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560624F221BA33B8004D88AE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560624F121BA33B8004D88AE /* Data.swift */; };
+		560624F421BAF604004D88AE /* eagle-neb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560624F321BAF604004D88AE /* eagle-neb.jpg */; };
+		5676675E28C55262001E3007 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = 5676675D28C55262001E3007 /* iOSDropDown */; };
+		56B29F9E21B6F3F40068F5E2 /* Andromeda_Galaxy_(with_h-alpha).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56B29F9D21B6F3F40068F5E2 /* Andromeda_Galaxy_(with_h-alpha).jpg */; };
+		56B29FA621B860CE0068F5E2 /* Andromeda_drawing2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 56B29FA521B860CE0068F5E2 /* Andromeda_drawing2.jpeg */; };
+		56D8939B21B1B370004D2B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8939A21B1B370004D2B3D /* AppDelegate.swift */; };
+		56D8939D21B1B370004D2B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8939C21B1B370004D2B3D /* ViewController.swift */; };
+		56D893A021B1B370004D2B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D8939E21B1B370004D2B3D /* Main.storyboard */; };
+		56D893A321B1B370004D2B3D /* iPadFOV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56D893A121B1B370004D2B3D /* iPadFOV.xcdatamodeld */; };
+		56D893A521B1B372004D2B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D893A421B1B372004D2B3D /* Assets.xcassets */; };
+		56D893A821B1B372004D2B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D893A621B1B372004D2B3D /* LaunchScreen.storyboard */; };
+		56D988E121B31C9200B6248A /* IMG_0816.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 56D988E021B31C9200B6248A /* IMG_0816.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		560624F121BA33B8004D88AE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		560624F321BAF604004D88AE /* eagle-neb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eagle-neb.jpg"; sourceTree = "<group>"; };
+		56B29F9D21B6F3F40068F5E2 /* Andromeda_Galaxy_(with_h-alpha).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andromeda_Galaxy_(with_h-alpha).jpg"; sourceTree = "<group>"; };
+		56B29FA521B860CE0068F5E2 /* Andromeda_drawing2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Andromeda_drawing2.jpeg; sourceTree = "<group>"; };
+		56D8939721B1B370004D2B3D /* iPadFOV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadFOV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D8939A21B1B370004D2B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56D8939C21B1B370004D2B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56D8939F21B1B370004D2B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56D893A221B1B370004D2B3D /* iPadFOV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPadFOV.xcdatamodel; sourceTree = "<group>"; };
+		56D893A421B1B372004D2B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56D893A721B1B372004D2B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56D893A921B1B372004D2B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D988E021B31C9200B6248A /* IMG_0816.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0816.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D8939421B1B370004D2B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5676675E28C55262001E3007 /* iOSDropDown in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39B14608050F0BFBBC9A8626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56D8938E21B1B370004D2B3D = {
+			isa = PBXGroup;
+			children = (
+				56D8939921B1B370004D2B3D /* iPadFOV */,
+				56D8939821B1B370004D2B3D /* Products */,
+				39B14608050F0BFBBC9A8626 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56D8939821B1B370004D2B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56D8939721B1B370004D2B3D /* iPadFOV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56D8939921B1B370004D2B3D /* iPadFOV */ = {
+			isa = PBXGroup;
+			children = (
+				560624F321BAF604004D88AE /* eagle-neb.jpg */,
+				56B29FA521B860CE0068F5E2 /* Andromeda_drawing2.jpeg */,
+				56B29F9D21B6F3F40068F5E2 /* Andromeda_Galaxy_(with_h-alpha).jpg */,
+				56D988E021B31C9200B6248A /* IMG_0816.PNG */,
+				56D8939A21B1B370004D2B3D /* AppDelegate.swift */,
+				56D8939C21B1B370004D2B3D /* ViewController.swift */,
+				56D8939E21B1B370004D2B3D /* Main.storyboard */,
+				56D893A421B1B372004D2B3D /* Assets.xcassets */,
+				56D893A621B1B372004D2B3D /* LaunchScreen.storyboard */,
+				56D893A921B1B372004D2B3D /* Info.plist */,
+				56D893A121B1B370004D2B3D /* iPadFOV.xcdatamodeld */,
+				560624F121BA33B8004D88AE /* Data.swift */,
+			);
+			path = iPadFOV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D8939621B1B370004D2B3D /* iPadFOV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D893AC21B1B372004D2B3D /* Build configuration list for PBXNativeTarget "iPadFOV" */;
+			buildPhases = (
+				56D8939321B1B370004D2B3D /* Sources */,
+				56D8939421B1B370004D2B3D /* Frameworks */,
+				56D8939521B1B370004D2B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadFOV;
+			packageProductDependencies = (
+				5676675D28C55262001E3007 /* iOSDropDown */,
+			);
+			productName = iPadFOV;
+			productReference = 56D8939721B1B370004D2B3D /* iPadFOV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D8938F21B1B370004D2B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = rrshaw;
+				TargetAttributes = {
+					56D8939621B1B370004D2B3D = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 56D8939221B1B370004D2B3D /* Build configuration list for PBXProject "iPadFOV" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56D8938E21B1B370004D2B3D;
+			packageReferences = (
+				5676675528C550E4001E3007 /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+				5676675828C55168001E3007 /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+			);
+			productRefGroup = 56D8939821B1B370004D2B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D8939621B1B370004D2B3D /* iPadFOV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D8939521B1B370004D2B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D893A821B1B372004D2B3D /* LaunchScreen.storyboard in Resources */,
+				56D893A521B1B372004D2B3D /* Assets.xcassets in Resources */,
+				56B29F9E21B6F3F40068F5E2 /* Andromeda_Galaxy_(with_h-alpha).jpg in Resources */,
+				560624F421BAF604004D88AE /* eagle-neb.jpg in Resources */,
+				56B29FA621B860CE0068F5E2 /* Andromeda_drawing2.jpeg in Resources */,
+				56D988E121B31C9200B6248A /* IMG_0816.PNG in Resources */,
+				56D893A021B1B370004D2B3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D8939321B1B370004D2B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8939D21B1B370004D2B3D /* ViewController.swift in Sources */,
+				56D8939B21B1B370004D2B3D /* AppDelegate.swift in Sources */,
+				56D893A321B1B370004D2B3D /* iPadFOV.xcdatamodeld in Sources */,
+				560624F221BA33B8004D88AE /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56D8939E21B1B370004D2B3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D8939F21B1B370004D2B3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56D893A621B1B372004D2B3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D893A721B1B372004D2B3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56D893AA21B1B372004D2B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56D893AB21B1B372004D2B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56D893AD21B1B372004D2B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPCH82D5HP;
+				INFOPLIST_FILE = iPadFOV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrshaw.iPadFOV24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		56D893AE21B1B372004D2B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPCH82D5HP;
+				INFOPLIST_FILE = iPadFOV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrshaw.iPadFOV24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D8939221B1B370004D2B3D /* Build configuration list for PBXProject "iPadFOV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D893AA21B1B372004D2B3D /* Debug */,
+				56D893AB21B1B372004D2B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D893AC21B1B372004D2B3D /* Build configuration list for PBXNativeTarget "iPadFOV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D893AD21B1B372004D2B3D /* Debug */,
+				56D893AE21B1B372004D2B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5676675528C550E4001E3007 /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		5676675828C55168001E3007 /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5676675D28C55262001E3007 /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5676675528C550E4001E3007 /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		56D893A121B1B370004D2B3D /* iPadFOV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56D893A221B1B370004D2B3D /* iPadFOV.xcdatamodel */,
+			);
+			currentVersion = 56D893A221B1B370004D2B3D /* iPadFOV.xcdatamodel */;
+			path = iPadFOV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56D8938F21B1B370004D2B3D /* Project object */;
+}
