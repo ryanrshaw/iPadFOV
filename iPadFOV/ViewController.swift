@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func btnAbout(_ sender: Any) {
-        let alert = UIAlertController(title: "About", message: "copyright 2022 by rrs", preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: "About", message: "copyright 2024 by rrs", preferredStyle: .actionSheet)
         alert.addAction(UIAlertAction(title: "Close", style: .cancel , handler: {
             (action: UIAlertAction) -> Void in
             alert.dismiss(animated: true, completion: nil)
@@ -127,7 +127,7 @@ class ViewController: UIViewController {
         degHS %= 60
         let degHD = Int(degHeight)
         
-        labelFrame.text = "Test"
+        //labelFrame.text = "Test"
         
         fovWMin.text = String(fovWM)
         fovWSec.text = String(degWS)
