@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     // iOSDropDown https://github.com/jriosdev/iOSDropDown
     @IBOutlet weak var newd: DropDown!
     @IBOutlet weak var teleDropDown: DropDown!
+    @IBOutlet weak var refDropDown: DropDown!
     
     
     
@@ -75,6 +76,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var pixelsH: UITextField!
     @IBOutlet weak var labelFrame: UILabel!
     @IBOutlet weak var inputFrame: UIView!
+    @IBOutlet weak var refImgPickView: UIView!
   
     @IBOutlet weak var buttonReset: UIButton!
     @IBAction func buttonResetRot(_ sender: Any) {
@@ -178,6 +180,11 @@ class ViewController: UIViewController {
         inputFrame.layer.borderWidth = 3
         inputFrame.layer.borderColor = UIColor.darkGray.cgColor
         
+        refImgPickView.layer.cornerRadius = 5.0
+        refImgPickView.clipsToBounds = true
+        refImgPickView.layer.borderWidth = 3
+        refImgPickView.layer.borderColor = UIColor.darkGray.cgColor
+        
         viewTele.layer.cornerRadius = 5.0
         viewTele.clipsToBounds = true
         viewTele.layer.borderWidth = 3
@@ -187,6 +194,11 @@ class ViewController: UIViewController {
         teleDropDown.clipsToBounds = true
         teleDropDown.layer.borderWidth = 1
         teleDropDown.layer.borderColor = UIColor.red.cgColor
+         
+        refDropDown.layer.cornerRadius = 5.0
+        refDropDown.clipsToBounds = true
+        refDropDown.layer.borderWidth = 1
+        refDropDown.layer.borderColor = UIColor.red.cgColor
         
         newd.layer.cornerRadius = 5.0
         newd.clipsToBounds = true
@@ -211,8 +223,8 @@ class ViewController: UIViewController {
         self.view.addSubview(inputFrame)
         self.view.sendSubviewToBack(inputFrame)
         valueLabel.text = "no camera"
-        labelFrame.text = "ATIK 460EX"
-        //labelFrame.text = "No camera selected"
+        //labelFrame.text = "ATIK 460EX"
+        labelFrame.text = "No camera selected"
         let option =  Options()
         newd.optionArray = option.cameras
         //Its Id Values and its optional
